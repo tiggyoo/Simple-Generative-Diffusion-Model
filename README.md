@@ -1,4 +1,4 @@
-# 🚗 Diffusion Model Image Generator (PyTorch)
+Diffusion Model Image Generator (PyTorch)
 
 This project is a **DDPM-style generative diffusion model** implemented in **PyTorch**.  
 Instead of generating text, this model learns to generate **new images** by reversing a gradual noising process.
@@ -7,7 +7,7 @@ The included code trains a U-Net–based denoising network on a folder of images
 
 ---
 
-## 📌 Features
+Features
 - Fully custom PyTorch diffusion pipeline  
 - Forward (noising) and reverse (denoising) processes  
 - Configurable noise schedule  
@@ -42,7 +42,7 @@ The script includes a helper function:
 It automatically denormalizes the image and displays it with Matplotlib.
 
 
-## 📁 Dataset Setup
+ Dataset Setup
 
 Replace the included **`cars/`** folder with **your own images**.
 
